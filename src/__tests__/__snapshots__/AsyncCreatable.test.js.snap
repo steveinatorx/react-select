@@ -76,6 +76,7 @@ exports[`defaults - snapshot 1`] = `
         onInputChange={[Function]}
         onMenuClose={[Function]}
         onMenuOpen={[Function]}
+        openOnClick={true}
         options={Array []}
         pageSize={5}
         placeholder="Select..."
@@ -142,6 +143,7 @@ exports[`defaults - snapshot 1`] = `
               "onInputChange": [Function],
               "onMenuClose": [Function],
               "onMenuOpen": [Function],
+              "openOnClick": true,
               "options": Array [],
               "pageSize": 5,
               "placeholder": "Select...",
@@ -269,6 +271,7 @@ exports[`defaults - snapshot 1`] = `
                       "onInputChange": [Function],
                       "onMenuClose": [Function],
                       "onMenuOpen": [Function],
+                      "openOnClick": true,
                       "options": Array [],
                       "pageSize": 5,
                       "placeholder": "Select...",
@@ -392,6 +395,7 @@ exports[`defaults - snapshot 1`] = `
                               "onInputChange": [Function],
                               "onMenuClose": [Function],
                               "onMenuOpen": [Function],
+                              "openOnClick": true,
                               "options": Array [],
                               "pageSize": 5,
                               "placeholder": "Select...",
@@ -490,6 +494,7 @@ exports[`defaults - snapshot 1`] = `
                                       "onInputChange": [Function],
                                       "onMenuClose": [Function],
                                       "onMenuOpen": [Function],
+                                      "openOnClick": true,
                                       "options": Array [],
                                       "pageSize": 5,
                                       "placeholder": "Select...",
@@ -722,6 +727,7 @@ exports[`defaults - snapshot 1`] = `
                               "onInputChange": [Function],
                               "onMenuClose": [Function],
                               "onMenuOpen": [Function],
+                              "openOnClick": true,
                               "options": Array [],
                               "pageSize": 5,
                               "placeholder": "Select...",
@@ -817,6 +823,7 @@ exports[`defaults - snapshot 1`] = `
                                       "onInputChange": [Function],
                                       "onMenuClose": [Function],
                                       "onMenuOpen": [Function],
+                                      "openOnClick": true,
                                       "options": Array [],
                                       "pageSize": 5,
                                       "placeholder": "Select...",
@@ -911,6 +918,7 @@ exports[`defaults - snapshot 1`] = `
                                       "onInputChange": [Function],
                                       "onMenuClose": [Function],
                                       "onMenuOpen": [Function],
+                                      "openOnClick": true,
                                       "options": Array [],
                                       "pageSize": 5,
                                       "placeholder": "Select...",

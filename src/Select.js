@@ -148,6 +148,8 @@ export type Props = {
   onMenuScrollToTop: (SyntheticEvent<HTMLElement>) => void,
   /* Fired when the user scrolls to the bottom of the menu */
   onMenuScrollToBottom: (SyntheticEvent<HTMLElement>) => void,
+  /* Prop to toggle whether or not the menu opens on click of the Control */
+  openOnClick: boolean,
   /* Array of options that populate the select menu */
   options: OptionsType,
   /* Number of options to jump in menu when page{up|down} keys are used */
@@ -191,6 +193,7 @@ export const defaultProps = {
   menuIsOpen: false,
   menuPlacement: 'bottom',
   noOptionsMessage: () => 'No options',
+  openOnClick: true,
   options: [],
   pageSize: 5,
   placeholder: 'Select...',
@@ -593,7 +596,9 @@ export default class Select extends Component<Props, State> {
   };
   onControlMouseDown = (event: MouseOrTouchEvent) => {
     if (!this.state.isFocused) {
-      this.openAfterFocus = true;
+      if (this.props.openOnClick) {
+        this.openAfterFocus = true;
+      }
       this.focusInput();
     } else if (!this.props.menuIsOpen) {
       this.openMenu('first');
