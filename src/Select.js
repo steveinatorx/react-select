@@ -371,12 +371,12 @@ class Select extends React.Component {
 		if(this.props.onCloseResetsInput) {
 			this.setState({
 				inputValue: this.handleInputValueChange(''),
-				isOpen: false,
+				//isOpen: false,
 				isPseudoFocused: this.state.isFocused && !this.props.multi,
 			});
 		} else {
 			this.setState({
-				isOpen: false,
+				//isOpen: false,
 				isPseudoFocused: this.state.isFocused && !this.props.multi
 			});
 		}
