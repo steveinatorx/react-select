@@ -845,7 +845,7 @@ var Select$1 = function (_React$Component) {
 		value: function handleTouchOutside(event) {
 			// handle touch outside on ios to dismiss menu
 			if (this.wrapper && !this.wrapper.contains(event.target)) {
-				this.closeMenu();
+				//this.closeMenu();
 			}
 		}
 	}, {
